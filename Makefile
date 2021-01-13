@@ -1,3 +1,7 @@
+.PHONY: help
+help:
+	@cat ./Makefile
+
 .PHONY: up
 up:
 	docker-compose -p jooq-example up -d --build
